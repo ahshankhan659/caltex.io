@@ -1,0 +1,139 @@
+.contact{
+    margin: 3rem 8rem 4rem;
+}
+.contact-head>h1{
+    font-size: 37px;
+    padding: 3rem 0;
+    color: #19516c;
+}
+.contact-l p{
+    color: rgb(91, 90, 90);
+}
+.main-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-l h3{
+    font-size: 16px;
+}
+.form{
+    margin: 2.5rem 0;
+    display: flex;
+}
+.form label{
+    color:rgb(91, 90, 90) ;
+    margin-right: 3rem;
+}
+.form input{
+    padding: 15px 20px;
+    width: 70%;
+    border-radius: 40px;
+    /* outline: none; */
+    border: 1px solid rgb(91, 90, 90) ;
+}
+.bttn{
+    background: #19516c;
+    padding: 10px 40px;
+    color:rgb(231, 229, 229)  ;
+    border-radius: 30px;
+    font-size: 19px;
+    border: 2px solid #19516c;
+    font-weight: 500;
+    transition: all 0.4s ease;
+}
+.bttn:hover{
+    border: 2px solid #19516c;
+    background: transparent;
+    color: #19516c;
+    font-weight: 500;
+
+}
+.contact-r{
+    padding: 2rem;
+    background: rgb(244, 244, 244);
+}
+.detail{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.detail h2{
+    font-size: 23px;
+    margin: 0;
+    padding:10px 0;
+}
+.detail h4{
+    margin: 0;
+    padding: 0;
+}
+.detail p{
+    margin: 0;
+}
+.detail a{
+    color: #206587;
+}
+@media (max-width: 1024px) {
+    .contact{
+        margin: 1rem 8rem 4rem;
+    }
+    .main-contact{
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+    .form input{
+        display: block;
+        width: 100%;
+    } 
+    
+}
+@media (max-width: 750px) {
+    .contact{
+        margin: 1rem 3rem 4rem;
+    }
+    .form input{
+        padding: 14px 20px;
+    }
+    .contact-head>h1{
+        font-size: 32px;
+        color: #19516c;
+    }
+    .contact-l h3{
+        font-size: 15px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 0;
+    }
+}
+@media (max-width: 480px){
+    .contact{
+        margin: 1rem 4rem 0 2rem;
+    }
+    .contact-head>h1{
+        font-size: 25px;
+        color: #19516c;
+        padding: 3.4rem 0;
+    }
+    .detail h2{
+        font-size: 20px;
+        
+    }
+    .form input{
+        padding: 13px 20px;
+    }
+    .contact-r{
+        margin: 0 auto;
+    }
+    .main-contact{
+        margin-bottom: 4rem;
+    }
+    .bttn{
+        background: #19516c;
+        padding: 10px 36px;
+        color:rgb(231, 229, 229)  ;
+        border-radius: 30px;
+        font-size: 17px;
+    }
+
+}

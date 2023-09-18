@@ -1,0 +1,391 @@
+.main{
+    padding: 0;
+    width: 100%;
+    height: 70vh;
+    background-image: url('../images/main-core.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.main-contents{
+    width: 510px;
+    background: rgba(254, 253, 253, 0.9);
+    padding: 1rem 2rem;
+
+}
+.content{
+    padding: 8rem 0 0 6rem;
+}
+.main-contents>h1{
+    padding: 0;
+    font-size: 35px;
+    color: rgb(8, 8, 8,0.9);
+    
+}
+.main-contents p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+
+/* ---------ACCORDION-------- */
+
+.accordion{
+    padding: 4rem 4rem 2rem;
+}
+.main-accordion{
+    display: flex;
+    flex-direction: column;
+}
+.upper-accordion{
+    display: flex;
+    padding: 0rem 4rem;
+    gap: 3rem;
+}
+.right-accordion h1{
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.right-accordion p{
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+}
+.drop-accordion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.drop-accordion-item{
+    margin: 5px 0;
+    width: 520px;
+}
+.header span{
+    margin-right: 1rem;
+}
+.header h5{
+    color: black;
+    font-size: 20px;
+}
+.detail{
+    display: flex;
+    padding: 10px;
+    gap: 1rem;
+}
+.detail img{
+    width: 250px;
+}
+.graph-detail h6{
+   padding: 5px 0;
+}
+.graph-detail p{
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+
+/* -------Testimonials--------- */
+.testimonails{
+    margin: 2rem 0rem;
+    padding: 4rem 6rem;
+    background: rgb(238, 237, 237);
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial-img img:nth-child(1){
+    width: 240px;
+    margin-bottom: 1rem;
+}
+.testimonial-img img:nth-child(2){
+    width: 250px;
+}
+.testimonial-detail{
+    margin: auto 0;
+}
+.testimonial-detail h3{
+    font-size: 34px;
+    padding: 10px 0;
+}
+.testimonial-detail p{
+    font-size: 17px;
+}
+
+/* --------CARDS------- */
+.card-content{
+    padding: 2rem 6rem 5rem;
+}
+.card-content h2{
+    text-align: center;
+    padding-bottom: 1rem;
+    color: #19516c;
+}
+.cards{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.card-img img{
+    width: 330px;
+}
+.card-details{
+    width: 330px;
+}
+.card-details h4{
+    font-size: 20px;
+    padding: 15px 0 5px 0;
+}
+.card-details p{
+    font-size: 16px;
+    padding: 5px 0;
+}
+.card-details a{
+    text-decoration: none;
+    color: #19516c;
+}
+
+
+@media (max-width: 1024px) {
+    .cards{
+        gap: 1rem;
+    }
+    .card-img img{
+        width: 300px;
+    }
+    .card-details{
+        width: 300px;
+    }
+    .card-details h4{
+        font-size: 18px;
+        padding: 15px 0 5px 0;
+    }
+    .card-details p{
+        font-size: 15px;
+        padding: 5px 0;
+    }
+    .main{
+        background-size: cover;
+        background-position: center;
+    }
+    .content{
+        padding: 6rem 0 0 4rem;
+    }
+    .main-contents{
+        padding: 1rem 1.7rem;
+    
+    }
+    .accordion{
+        padding: 6rem 0 2rem;
+    }
+    .upper-accordion{
+        padding: 0rem 1rem;
+        /* gap: 3rem; */
+    }
+    .right-accordion h1{
+        padding: 0;
+        font-size: 34px;
+    }
+    .right-accordion p{
+        font-size: 16px;
+        color: rgb(53, 53, 53);
+    }
+    .drop-accordion{
+        display: flex;
+       flex-direction: column;
+       padding: 1rem 1rem;
+    }
+    .drop-accordion-item{
+        margin: 5px 0;
+        width: 100%;
+    }
+    .header span{
+        margin-right: 1rem;
+    }
+    /* .detail{
+        display: flex;
+        padding: 10px;
+        gap: 1rem;
+    } */
+    .detail img{
+        width: 300px;
+    }
+    .graph-detail{
+        margin: auto 0;
+    }
+    .graph-detail h6{
+       padding: 5px 0;
+       font-size: 22px;
+    }
+    .graph-detail p{
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .testimonails{
+        padding: 3rem 3rem;
+        background: rgb(238, 237, 237);
+        display: flex;
+        gap: 2rem;
+    }
+    .testimonial-detail h3{
+        font-size: 26px;
+        padding: 10px 0;
+    }
+    .testimonial-detail p{
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 780px) {
+    .main{
+        background-size: cover;
+        background-position: center;
+    }
+    .content{
+        padding: 6rem 0 0 1.5rem;
+    }
+    .main-contents{
+        width: 450px;
+        padding: 1rem 1.2rem;
+    
+    }
+    .main-contents>h1{
+        padding: 0;
+        font-size: 28px;
+        color: rgb(8, 8, 8,0.9);
+        
+    }
+    .main-contents p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .accordion{
+        padding: 3rem 0.8rem 2rem;
+    }
+    .upper-accordion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-accordion h1{
+        padding: 0;
+        font-size: 27px;
+    }
+    .detail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .detail img{
+        width: 220px;
+    }
+    .testimonails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .testimonial-detail h3{
+        font-size: 24px;
+    }
+    .testimonial-detail p{
+        font-size: 16px;
+    }
+    .testimonial-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial-img img:nth-child(1){
+        width: 400px;
+        margin-bottom: 1rem;
+    }
+    .testimonial-img img:nth-child(2){
+      margin: 0 auto;
+    }
+    .card-content{
+        padding: 2rem 1rem 5rem;
+    }
+    .card-content h2{
+       text-align: start;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .card-details{
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+
+    .main{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .content{
+        padding: 7rem 0 0 0.4rem;
+    }
+    .main-contents{
+        width: 350px;
+        padding: 1rem 0.5rem 1rem 1rem;
+        
+    
+    }
+    .main-contents>h1{
+        padding: 0;
+        font-size: 25px;
+        color: rgb(8, 8, 8,0.9);
+        
+    }
+    .main-contents p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .right-accordion{
+        text-align: center;
+    }
+    .right-accordion h1{
+        padding: 0;
+        font-size: 22px;
+    }
+    .detail img{
+        width: 180px;
+    }
+    .graph-detail h6{
+        padding: 5px 0;
+        font-size: 18px;
+     }
+     .graph-detail p{
+         font-size: 15px;
+         padding: 5px 0;
+     }
+     .header span{
+        margin-right: 0.5rem;
+     }
+     .header h5{
+        color: black;
+        font-size: 16px;
+    }
+    .testimonails{
+        padding: 3rem 1rem;
+    }
+    .testimonial-img img:nth-child(1){
+        width: 300px;
+        margin-bottom: 1rem;
+    }
+    .testimonial-img img:nth-child(2){
+        width: 200px;
+      }
+      .testimonial-detail h3{
+        font-size: 21px;
+    }
+    .testimonial-detail p{
+        font-size: 15px;
+    }
+    
+}

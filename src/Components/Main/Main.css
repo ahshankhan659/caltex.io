@@ -1,0 +1,231 @@
+.main-img>img{
+    width: 100%;
+    object-fit: cover;
+}
+.main-img p{
+    display: none;
+}
+.main-img hr{
+    display: none;
+}
+.promotion{
+    margin: 4rem 6rem 4rem;
+    
+}
+.promotion>h1{
+    padding: 10px 0;
+    font-size: 40px;
+    color: #01526dee;
+}
+.promotion-card{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 330px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+/* .card-img{
+    width: 100%;
+} */
+.card-img img{
+    width: 100%;
+}
+.card-title{
+    padding: 20px 15px;
+}
+.card-title h5{
+    padding-top: 4rem ;
+    font-size: 15px;
+}
+.card-title p{
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+.card-title a{
+    text-decoration: none;
+    padding: 0 0 20px 0 ;
+    color: #fb5858;
+    transition: all 0.3s ease;
+}
+.card-title a:hover{
+    color: black;
+}
+
+/* -------flex-container------ */
+.flex-container{
+    display: flex;
+    height: 488px;
+}
+.flex-l{
+    flex:  1 ;
+    background: #FA2A55 ;
+    padding: 3rem;
+    
+}
+.flex-l h3{
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+.flex-l h1{
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+.flex-l p{
+    color: white;
+    line-height: 24px;
+}
+.flex-l button{
+    margin: 20px 0;
+    padding: 12px 45px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid white;
+    color: white;
+    background: #FA2A55;
+    border-radius: 60px;
+    transition: all 0.4s ease;
+}
+.flex-l button:hover{
+    background: white;
+    border: 1px solid white;
+    color: #19516c;
+}
+.flex-r{
+    flex: 1 ;
+}
+.flex-r>img{
+    /* width: 100%; */
+    /* height: 70vh; */
+}
+
+@media (max-width: 1024px) {
+  
+    .promotion{
+        margin: 4rem  4rem;
+        
+    }
+    .promotion h1{
+        padding: 2rem 0;        
+    }
+  
+    /* .card-img img {
+      width: 100%; 
+      border-radius: 5px;
+    } */
+    .promotion-card{
+        width: 300px;
+
+    }
+  
+    .flex-container {
+      height: auto;
+      flex-direction: column;
+      margin: 0; /* Adjust height */
+    }
+  
+    .flex-l h1 {
+      font-size: 24px; /* Adjust font size */
+    }
+  
+    .flex-l p {
+      font-size: 16px; /* Adjust font size */
+    }
+  
+    .flex-l button {
+      padding: 10px 35px; /* Adjust padding */
+      font-size: 15px; /* Adjust font size */
+    }
+   
+    .flex-r>img{
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+  }
+  @media (max-width: 750px) {
+    .main-container{
+        width: 100%;
+        height: 380px;
+        background:#19516c ;
+    }
+    .main-img p{
+        display: block;
+        color: rgb(233, 230, 230);
+        font-size: 16px;
+        padding: 0rem 4rem;
+        margin: 0;
+    }
+    .main-img hr{
+        display: block;
+        width: 80px;
+        padding: 1.5px;
+        background: rgb(233, 230, 230);
+        border-radius: 10px;
+        margin: 2rem 4rem;
+    }
+    .promotion{
+        margin: 4rem  3rem;
+        
+    }
+    .promotion h1{
+        padding: 2rem 0;
+        font-size: 31px;
+        
+    }
+    .flex-r>img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+  }
+  @media (max-width: 480px){
+    .main-container>img{
+        width: auto;
+        height: 250px;
+        object-fit: cover;
+    }
+    .main-container{
+        width: 100%;
+        height: 260px;
+        background:#19516c ;
+    }
+    .main-img p{
+        font-size: 13px;
+        padding: 0rem 1.6rem;
+    }
+    .main-img hr{
+        width: 70px;
+        padding: 1.5px;
+        margin: 1.5rem 1.6rem;
+    }
+    
+    .flex-r>img{
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+    }
+    .promotion{
+        margin: 0 0 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        
+    }
+    .promotion h1{
+        font-size: 27px;
+        padding-top: 4rem;
+    }
+    .promotion-card{
+        width: 300px;
+       
+    }
+    .card-img{
+        width: 100%;
+    }
+  }
+
+
+
